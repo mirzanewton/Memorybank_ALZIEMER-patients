@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Memory Bank",
+    "slug": "memory-bank",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F4F7FF"
+    },
+    "android": {
+      "package": "com.memorybank.support"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Memory Bank uses your photos to create personal memory cards."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#5577D8"
+        }
+      ]
+    ]
+  }
+}
